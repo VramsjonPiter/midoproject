@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.container_navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.header{
+    background-color: rgb(8, 180, 211);
+    width: 100%;
+    height: 30px;
+}
+.header ul{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px;
+    display: flex;
+    padding-top: 6px;
+    list-style-type: none;
+}
+.header img{
+    width: 15px;
+}
+.header li{
+    margin-right: 15px;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 0 20px rgb(190, 190, 190);
+}
+.logo{
+    display: flex;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding-top: 5px;
+}
+.logo img{
+    width: 110px;
+    height: 60px;
+    margin-top: 0;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu li{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+.menu a:hover{
+    color: rgb(250, 106, 10);
+}
+.wise_word{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.wise_word div{
+    background-color: rgb(235, 232, 232);
+    font-family: fantasy;
+    color: rgb(9, 74, 78);
+    width: 150px;
+    margin-bottom: 20px;
+    box-shadow:  5px 5px 5px rgb(100, 99, 99);
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.footer1{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    font-family: sans-serif;
+    line-height: 2;
+    width: 90%;
+    margin-left: 110px;
+}
+.footer1 div{
+    width: 30%;
+}
+footer{
+    background-color: #00abbd;
+    width: 100%;
+
+}
+.footer1 li {
+    list-style-type: none;
+}
+.footer1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer1 h2{
+    color: whitesmoke;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 70px;
+    border-top: 1px solid whitesmoke;
+}
+.footer2 div{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer2 h2{
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.footer2 li{
+    list-style-type: none;
+}
+.footer2 a{
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.copyright{
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    color: #a09f9f;
+    font-size: 16px;
+}
