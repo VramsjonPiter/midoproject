@@ -8,12 +8,34 @@
 <body>
     <p>Learn JS Part 2</p>
 
+    <button onclick="myVramsjon()">Click me!</button>
     <script>
         const pi = 3.14;
         let x = 1;
 
         x = 2;
         console.log(x);
+        console.log(pi);
+
+        function myVramsjon() {
+            alert ("My name is Vramsjon");
+            newFunction();
+        }
+
+        function newFunction() {
+            alert("I love JS!");
+        }
+
+        x = 3;
+        let y = 4;
+
+        function add(x, y) {
+            return x + y;
+        }
+        
+        document.write(add(x, y));
+        
+        // myVramsjon();
     </script>
 </body>
 </html>
